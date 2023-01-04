@@ -1,65 +1,37 @@
-# Development challenge
+# Medcloud Test 
 
-![logo medcloud-03 white copy](https://user-images.githubusercontent.com/46347123/158176045-de9fefb0-35e2-4515-83ff-c132608aa870.png)
+This project has an education/professional intent, all the requirements were liested by [Medcloud](https://medcloud.link/).
 
-About Medcloud:
+# Before Launching 
 
-We make exams and medical data management more flexible, secure and effective by accelerating the transition from clinics and hospitals to the cloud.
-The RIS and PACS systems have been practically the same for the past 25 years. Interoperability problems, high costs and a lack of understanding about the patient's access to his medical records.
+Make sure that the SQL script, colcated in ./assets is downloaded and used on your machine, also check if the command line is runnig. This can make the web application unable to use.
 
-These points defined limits for the doctor-patient relationship and barriers to radiology workflows. We are revolutionizing this through a Care Coordination based solution that improves workflows for providers and integrates doctors and patients for a better experience.
+`ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'YOUR_PASSWORD'`
 
-Since our foundation, almost 10 years ago, we have prioritized excellence in the management of health data, structuring workflows of health professionals, clinics, laboratories and hospitals for assertive and quality diagnostics.
+## Available Scripts 
 
-We understand that behind each medical record there is a patient seeking to improve his health and the hope of family members for his well being. After all, we are all patients, and Medcloud's mission is to help you live longer and better. #PatientFirst
+In the project directory, you should/can run:
 
-Medcloud's challenge for Dev Full Stack.
+### `yarn/npm start`
 
-## Goal
+Runs the app in the development mode.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- To develop a web application (CRUD) to manage patient registers (Patient's name, birth date, email and address).
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Required
+### `npm install`
 
-- You need to develop both the front-end and the back-end.
-- In the front-end you MUST use React.
-- In the back-end you MUST use Node.js.
-- The patient data should not be static  (You MUST use a cloud database or a local database).
-- Field validation (date, required fields, etc).
+Download all the packges that are ignored on the file `.gitgnore`. This one is a must do.
 
-## Extra Points
+## Prototipation
 
-- Cache the data in-browser.
-- Pagination.
-- Use Material UI - https://material-ui.com.
-- A cool design.
-- If you choose a local database: a docker environment of your project.
+All prototypes were made using [Figma](https://www.figma.com/).
 
-## References
+### Use Case
 
-- Intro to React: https://reactjs.org/tutorial/tutorial.html.
+<img src="./assets/images/use-case.jpg" alt="UseCase" style="width:75%;  display: block;margin-left: auto;margin-right: auto;"/>
 
-## What will be evaluated:
+### Screen
 
-- Clean and organized code (naming, etc.)
-- Knowledge of patterns (PSRs, design patterns, SOLID)
-- Be consistent and know how to argue your choices
-- Present solutions you master
-- Data Modeling
-- Code maintainability
-- Error handling
-- Architecture (structuring thought before writing)
-- Affection in decoupling components (other layers, service, repository)
-
-According to the above criteria, we will evaluate your test in order to proceed to the technical interview. If you have not acceptably achieved what we are proposing above, we will not proceed with the process.
-
-## Delivery
-
-You MUST fork this repository to your own account and push you code to it. 
-When you finish it, you must send a email to cv@medcloud.com.br with your curriculum and your fork.
-
-Good luck! Any doubts, feel free to send an email to cv@medcloud.com.br.
-
-## For the day of the technical interview and code review
-
-On the date set by the recruiter, have your application running on your local machine to run the tests and to show us the points developed and possible questions. We will do a code review together with you as if you were already on our team, you will be able to explain what you thought, how you architected and how the project can evolve. Good luck!
+<img src="./assets/images/screen.png" alt="ScreenPrototype" style="width:75%;  display: block;margin-left: auto;margin-right: auto;"/>
